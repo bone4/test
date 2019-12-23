@@ -1,0 +1,21 @@
+NeugrabenOnline - GIT:
+https://github.com/bone4/NeugrabenOnline
+http://wiki.ubuntuusers.de/Grafische_Oberfl%C3%A4chen_f%C3%BCr_Git
+http://nkpserver/gitlab/users/sign_in
+https://www.youtube.com/watch?v=xh32DIHApZA
+https://git.wiki.kernel.org/index.php/InterfacesFrontendsAndTools#Web_Interfaces
+
+
+# leeres Projekt erstellen
+git init
+git config user.name "hansperter"		-> lokales Projekt, --global für global
+git config user.email "hans@peter.de"		-> --- " ---
+# vorhandenes Projekt holen
+git clone https://github.com/bone4/…
+
+git add .					-> alle neuen Datiene hinzufügen
+git status					-> Status
+git commit					-> öffnit Editor für Kommentar
+git push origin					-> sendet Änderungen an Quelle
+git pull					-> holt aktuellen Stand vom Server
+
